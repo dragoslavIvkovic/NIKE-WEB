@@ -1,6 +1,5 @@
 .navbar {
-   
-    height: 80px;
+       height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +30,7 @@
   }
   
   .nav-menu {
-   
-    display: grid;
+       display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
@@ -44,11 +42,13 @@
   
   .nav-item {
     height: 80px;
+  
     
   }
   
   .nav-links {
     color: red;
+   
     display: flex;
     align-items: center;
     text-decoration: none;

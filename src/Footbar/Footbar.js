@@ -14,6 +14,9 @@ export default function Footbar() {
 
 
 
+
+
+
             </div>
         </div>
     )
