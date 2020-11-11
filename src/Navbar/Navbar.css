@@ -18,7 +18,7 @@
   }
   
   .navbar-logo {
-    color: red;
+    color: whitesmoke;
     justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -47,7 +47,7 @@
   }
   
   .nav-links {
-    color: red;
+    color: black;
    
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid orangered;
     transition: all 0.2s ease-out;
   }
   

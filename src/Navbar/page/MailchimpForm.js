@@ -20,8 +20,13 @@ class App extends Component {
                             }
                         ]}
                     />
-                    <div>MAILCHIMP</div>
+                    <div>Subscribe</div>
+
+
                 </div>
+
+
+
             </>
         );
     }

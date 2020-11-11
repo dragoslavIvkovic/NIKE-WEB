@@ -15,8 +15,10 @@
 }
 
 .item1 {
+    background-color: #85144b;
     font-size: 2rem;
     margin: 1rem;
+    border: 0;
    
 }
 
