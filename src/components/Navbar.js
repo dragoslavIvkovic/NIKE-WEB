@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Button } from "./Button";
+
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars, FaTimes, FaPizzaSlice } from "react-icons/fa";
@@ -61,17 +61,9 @@ function Navbar() {
               Desserts
             </Link>
           </li>
-          <li>
-            <Link
-              to="/order-now"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Order Now
-            </Link>
-          </li>
+
         </ul>
-        <Button />
+
       </nav>
     </>
   );
