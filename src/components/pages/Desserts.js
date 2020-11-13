@@ -1,51 +1,54 @@
-import React from "react";
-import "./DessertsProps.css";
+import React from 'react';
+import '../../App.css';
+import PizzasProps from './PizzasProps';
 import { Button } from "../Button";
-import { TimelineMax } from 'gsap';
 
-export default function App() {
-
-  const name = document.getElementById('id')
-
-  const tl = new TimelineMax();
-
+export default function Desserts() {
   return (
-    <div className="app">
-      <div className="hover_cards">
-        <div className="container">
-          <div className="card1">
-            <div className="box">
-              <div className="content">
+    <div className="flex-container">
+      <div className="Card">
+        <PizzasProps
+          img="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          name="Bob" />
+        <Button />
 
-               
+      </div>
+      <div className="Card">
+        <PizzasProps
+          img="https://images.unsplash.com/photo-1597895139270-a5dee112224d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          name="Bob" />
+        <Button />
+      </div>
+      <div className="Card">
+        <PizzasProps
+          img="https://images.unsplash.com/photo-1575389371771-2ee5b9bba753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          name="Bob" />
+        <Button />
+      </div>
+      <div className="Card">
+        <PizzasProps
+          img="https://images.unsplash.com/photo-1571506636496-dd2c945bde72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          name="Bob" />
+        <Button />
+      </div>
+      <div className="Card">
+        <PizzasProps
+          img="https://images.unsplash.com/photo-1515544699701-86e5f26b66d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          name="Bob" />
+        <Button />
+      </div>
 
-                <Button />
-              </div>
-            </div>
-          </div>
-          <div className="card1">
-            <div className="box">
-              <div className="content">
-              <img src={"https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"} alt="Logo" />;
-                <a href>Read More</a>
-              </div>
-            </div>
-          </div>
-          <div className="card1">
-            <div className="box">
-              <div className="content">
-                <h2>03</h2>
-                <h3>Card Three</h3>
-                <p>Lorem ipsum dolor sit amet, consectur adipisicing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua,</p>
-                <a href>Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-     
+
+
+
+
+
+
+
+
+
+      />
+    </div>
   );
+
 }
