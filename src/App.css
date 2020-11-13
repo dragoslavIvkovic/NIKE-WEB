@@ -24,26 +24,19 @@
   background-color: red;
 }
 
-.services {
-  background-color: blue;
-}
 
-.products {
+.desserts {
   background-color: green;
 }
 
-.contact-us {
+.sign-up {
   background-color: orangered;
 }
 
-.sign-up {
+.fullmenu {
   background-color: yellow;
 }
-
-.marketing {
+.order-now {
   background-color: blueviolet;
 }
 
-.consulting {
-  background-color: plum;
-}
