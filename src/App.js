@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Pizzas from './components/pages/Pizzas';
-import Desserts from './components/pages/Desserts';
-import OrderNow from './components/pages/OrderNow';
-import FullMenu from './components/pages/FullMenu';
+import Men from './components/pages/Men';
+import Women from './components/pages/Women';
+import SingIn from './components/pages/SingIn'
+import Kids from './components/pages/Kids';
 
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
 
-        <Route path='/Pizzas' component={Pizzas} />
-        <Route path='/desserts' component={Desserts} />
-        <Route path='/sign-up' component={OrderNow} />
-        <Route path='/FullMenu' component={FullMenu} />
+        <Route path='/Men' component={Men} />
+        <Route path='/Women' component={Women} />
+        <Route path='/Kids' component={Kids} />
+        <Route path='/SingIn' component={SingIn} />
 
       </Switch>
     </Router>

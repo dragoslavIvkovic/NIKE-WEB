@@ -1,0 +1,33 @@
+:root {
+  --primary:orangered;
+  --sec:antiquewhite;
+}
+
+.btn {
+position: relative;
+z-index: 1000;
+  padding: 0.5rem 1.3rem;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--sec);
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  
+  
+  padding: 0.5rem 1.3rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--primary);
+  background-color: var(--sec);
+}

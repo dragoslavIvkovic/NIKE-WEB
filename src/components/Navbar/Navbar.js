@@ -1,10 +1,12 @@
 
 import React, { useState } from "react";
-
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaBars, FaTimes, FaPizzaSlice } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { ReactComponent as Logo } from '../../images/Logo.svg';
+import Button from '../Button/Button'
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -16,11 +18,10 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <IconContext.Provider
-            value={{ style: { fontSize: "4rem", color: "wheat" } }}
-          >
-            <FaPizzaSlice />
-          </IconContext.Provider>
+
+
+          <Logo className="logo_svg" />
+
         </Link>
         <IconContext.Provider
           value={{ style: { fontSize: "2rem", color: "wheat" } }}
@@ -30,14 +31,14 @@ function Navbar() {
           </div>
         </IconContext.Provider>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
+          {/*<li className="nav-item">
+          <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            Home
+          </Link>
+        </li>*/}
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/Pizzas" className="nav-links" onClick={closeMobileMenu}>
-              Pizzas
+            <Link to="/Kids" className="nav-links" onClick={closeMobileMenu}>
+              Kids
             </Link>
           </li>
 
@@ -45,20 +46,26 @@ function Navbar() {
 
           <li className="nav-item">
             <Link
-              to="/FullMenu"
+              to="/Men"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              FullMenu
+              Men
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/Desserts"
+              to="/Women"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Desserts
+              Women
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+            ><Button />
+
             </Link>
           </li>
 
