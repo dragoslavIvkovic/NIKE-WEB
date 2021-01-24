@@ -19,7 +19,6 @@ function Navbar() {
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 
-
           <Logo className="logo_svg" />
 
         </Link>

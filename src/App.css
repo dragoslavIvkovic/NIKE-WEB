@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
  margin:1rem;
-  
+  overflow: hidden;
   font-family: "PT Sans", sans-serif;
   
   /*background-color: #0e161d;*/
@@ -12,6 +12,8 @@
   color: #B59354;
   
 }
+
+
 
 
 

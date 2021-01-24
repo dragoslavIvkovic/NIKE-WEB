@@ -1,18 +1,51 @@
 .home_container{
-    
+    margin:6rem 6rem;
+   
+   }
+
+  .Discount_Img{
+    background-color:transparent;
+    margin-top: -2rem;
+    height:70%;
+    width: 70%;
+   float: right;
+   position: relative;
+   z-index: 10;
+     }
+
+   .text_container{
+  top:-4rem;
     position: relative;
-    z-index: 10;
+    z-index: 999;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    
+    
    
-}
+   }
 
-
-.Discount_Img{
-    height:50%;
-    width: 50%;
+.nike_text{
     font-size:10rem;
-    float: right;
-   
-}
+    text-transform: uppercase;
+    text-align: center;
+    background-color:transparent;
+   }
+.header_discount{
+    background-color:transparent; 
+       text-transform: uppercase;
+       text-align: center;
+       color:wheat;
+       font-size: 2em;
+         }
+
+.text_discount{
+    text-align: center;
+    font-size: 1.5em;
+    background-color:transparent;
+   }
+
+
+
 
 
 @media screen and (max-width:972px){

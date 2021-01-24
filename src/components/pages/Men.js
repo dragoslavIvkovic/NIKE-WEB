@@ -5,7 +5,7 @@ import '../../App.css';
 
 export default function Desserts() {
   return (
-    <div className="flex-container">MEN
+    <div className="flex-container" style={{ backgroundColor: "blue" }}>MEN
 
     </div>
 
