@@ -10,12 +10,12 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 2rem;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
+  
   position: relative;
     z-index: 1000;
+   
 
 }
 
@@ -46,7 +46,7 @@
 .nav-links {
   color: #B59354;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -55,6 +55,27 @@
   background-color: wheat;
   border-radius: 4px;
   transition: all 0.2s ease-out;
+}
+
+
+.nav-links__SingIn {
+  color: wheat;
+  background-color:orangered;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  
+}
+
+.nav-links__SingIn:hover {
+  background-color: #B59354;
+  color:orangered;
+  transition: all 0.3s ease-out;
+  font-weight: bold;
+
+  
 }
 
 .nav-links-mobile {
@@ -93,7 +114,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding:  2rem;
     width: 100%;
     display: table;
   }
@@ -102,25 +123,36 @@
    
     border-radius: 0;
   }
+  .nav-links__SingIn {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links__SingIn:hover {
+   
+    border-radius: 0;
+  }
 
   .navbar-logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -5rem;
+    left: -2rem;
     transform: translate(25%, 50%);
   }
 
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1rem;
+    right: -1rem;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
   }
 
- 
-
-
 }
+
+
+  

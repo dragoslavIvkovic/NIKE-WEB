@@ -64,8 +64,11 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-            ><Button />
-
+              to="/SingIn"
+              className="nav-links__SingIn"
+              onClick={closeMobileMenu}
+            >
+              SingIn
             </Link>
           </li>
 

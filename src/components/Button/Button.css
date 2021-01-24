@@ -4,17 +4,7 @@
 }
 
 .btn {
-position: relative;
-z-index: 1000;
-  padding: 0.5rem 1.3rem;
-  border-radius: 30px;
-  outline: none;
-  border: none;
-  font-size: 2rem;
-  
-  cursor: pointer;
-  background-color: var(--primary);
-  color: var(--sec);
+
   transition: all 0.3s ease-out;
 }
 
