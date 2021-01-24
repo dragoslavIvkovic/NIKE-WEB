@@ -5,7 +5,7 @@ import '../../App.css';
 
 export default function Pizzas() {
   return (
-    <div className="flex-container">
+    <div className="flex-container">Women
 
     </div>
   );

@@ -10,10 +10,13 @@ import SingIn from './components/pages/SingIn'
 import Kids from './components/pages/Kids';
 
 
+
+
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Switch>
         <Route path='/' exact component={Home} />
 

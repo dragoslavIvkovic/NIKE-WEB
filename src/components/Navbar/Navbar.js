@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import { ReactComponent as Logo } from '../../images/Logo.svg';
-import Button from '../Button/Button'
+import { ReactComponent as Logo } from '../images/Logo.svg';
+
 
 
 function Navbar() {

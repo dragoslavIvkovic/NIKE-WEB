@@ -1,0 +1,23 @@
+.home_container{
+    
+    position: relative;
+    z-index: 10;
+   
+}
+
+
+.Discount_Img{
+    height:50%;
+    width: 50%;
+    font-size:10rem;
+    float: right;
+   
+}
+
+
+@media screen and (max-width:972px){
+    .Discount_Img{
+        visibility: hidden;
+       
+    }
+}
