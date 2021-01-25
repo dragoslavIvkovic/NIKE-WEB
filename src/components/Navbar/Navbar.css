@@ -1,9 +1,8 @@
 .navbar {
- 
-  margin:0;
-  height:4rem;
+  margin: 0;
+  height: 4rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1.2rem;
 }
@@ -13,23 +12,21 @@
   justify-self: start;
   margin-left: 2rem;
   cursor: pointer;
-  
-  position: relative;
-    z-index: 1000;
-   
 
+  position: relative;
+  z-index: 1000;
 }
 
-.logo_svg{
+.logo_svg {
   height: 5rem;
-  width:5rem;
-  color:antiquewhite;
-  background-color:transparent;
+  width: 5rem;
+  color: antiquewhite;
+  background-color: transparent;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -37,7 +34,7 @@
   justify-content: end;
   margin-right: 2rem;
 }
-
+.nav-links__cart,
 .nav-item {
   display: flex;
   align-items: center;
@@ -45,38 +42,42 @@
 }
 
 .nav-links {
-  color: #B59354;
+  color: #b59354;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
   font-size: 2rem;
   text-transform: uppercase;
+  transition: all 0.2s ease-out;
 }
 
 .nav-links:hover {
   background-color: wheat;
   border-radius: 4px;
+}
+.nav-links__cart {
+  color: #b59354;
+
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+
   transition: all 0.2s ease-out;
 }
 
-
 .nav-links__SingIn {
   color: wheat;
-  background-color:orangered;
+  background-color: orangered;
   text-decoration: none;
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
   border-radius: 20px;
   font-weight: bold;
-  
 }
 
 .nav-links__SingIn:hover {
-  background-color: #B59354;
-  color:orangered;
+  background-color: #b59354;
+  color: orangered;
   transition: all 0.3s ease-out;
   font-weight: bold;
-
-  
 }
 
 .nav-links-mobile {
@@ -90,14 +91,12 @@
 @media screen and (max-width: 1054px) {
   .NavbarItems {
     position: relative;
-    
   }
 
   .nav-menu {
-    
     display: flex;
     flex-direction: column;
-   
+
     width: 100%;
     height: 90vh;
     position: absolute;
@@ -105,28 +104,22 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
-    
   }
 
   .nav-menu.active {
-    
-   
     left: -2rem;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    
   }
-
+  .nav-links__cart,
   .nav-links {
-  
     text-align: center;
-      width: 100%;
+    width: 100%;
     display: table;
   }
 
   .nav-links:hover {
-   
     border-radius: 0;
   }
   .nav-links__SingIn {
@@ -137,13 +130,12 @@
   }
 
   .nav-links__SingIn:hover {
-   
     border-radius: 0;
   }
 
   .navbar-logo {
     position: absolute;
-    
+
     top: -5rem;
     left: -2rem;
     transform: translate(25%, 50%);
@@ -157,10 +149,5 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    
   }
-
 }
-
-
-  

@@ -1,12 +1,9 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaShoppingCart } from "react-icons/fa";
 import { IconContext } from "react-icons";
-import { ReactComponent as Logo } from '../images/Logo.svg';
-
-
+import { ReactComponent as Logo } from "../images/Logo.svg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -20,16 +17,6 @@ function Navbar() {
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <Logo className="logo_svg" />
         </Link>
-
-        <li className="nav-item">
-          <Link
-            to="/SingIn"
-            className="nav-links__cart"
-            onClick={closeMobileMenu}
-          >
-            <FaShoppingCart />
-          </Link>
-        </li>
 
         <IconContext.Provider
           value={{ style: { fontSize: "2rem", color: "wheat" } }}
@@ -45,33 +32,31 @@ function Navbar() {
           </Link>
         </li>*/}
           <li className="nav-item">
+            <Link
+              to="/Cart"
+              className="nav-links__cart"
+              onClick={closeMobileMenu}
+            >
+              <FaShoppingCart />
+            </Link>
+          </li>
+
+          <li className="nav-item">
             <Link to="/Kids" className="nav-links" onClick={closeMobileMenu}>
               Kids
             </Link>
           </li>
 
-
-
           <li className="nav-item">
-            <Link
-              to="/Men"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/Men" className="nav-links" onClick={closeMobileMenu}>
               Men
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/Women"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/Women" className="nav-links" onClick={closeMobileMenu}>
               Women
             </Link>
           </li>
-
-
 
           <li className="nav-item">
             <Link
@@ -82,11 +67,7 @@ function Navbar() {
               SingIn
             </Link>
           </li>
-
         </ul>
-
-
-
       </nav>
     </>
   );
