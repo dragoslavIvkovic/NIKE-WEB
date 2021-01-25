@@ -18,10 +18,19 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-
           <Logo className="logo_svg" />
-
         </Link>
+
+        <li className="nav-item">
+          <Link
+            to="/SingIn"
+            className="nav-links__cart"
+            onClick={closeMobileMenu}
+          >
+            <FaShoppingCart />
+          </Link>
+        </li>
+
         <IconContext.Provider
           value={{ style: { fontSize: "2rem", color: "wheat" } }}
         >
@@ -61,6 +70,9 @@ function Navbar() {
               Women
             </Link>
           </li>
+
+
+
           <li className="nav-item">
             <Link
               to="/SingIn"
@@ -72,6 +84,8 @@ function Navbar() {
           </li>
 
         </ul>
+
+
 
       </nav>
     </>

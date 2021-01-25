@@ -16,8 +16,10 @@ export default function Home() {
           <h1 className="nike_text">NIKE N9</h1>
           <h1 className='header_discount'>Hybrid 3X Power</h1>
           <h2 className='text_discount'>Nike's Having A Big Sneaker Sale In Case You Want New Kicks For 2021</h2>
-        </div>
 
+        </div>
+        <div className='vertical_line'></div>
+        <div className='horizontal_line'></div>
       </div>
     </>
   );
