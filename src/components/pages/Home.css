@@ -1,70 +1,99 @@
-.home_container{
-      margin:6rem 6rem;
-      
-   }
+.home_container {
+  margin: 6rem 6rem;
+}
 
-.Discount_Img{
-    background-color:transparent;
-    margin-top: -1rem;
-    height:70%;
-    width: 70%;
-   float: right;
-   position: relative;
-   z-index: 1;
-     }
+.Discount_Img {
+  background-color: transparent;
+  margin-top: -1rem;
+  height: 70%;
+  width: 70%;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
 
-   .text_container{
-  top:-4rem;
-    position: relative;
-    z-index: 1999;
-    display: grid;
-    grid-template-rows: auto auto auto ;
-    
-   }
+.text_container {
+  top: auto;
+  position: fixed;
+  z-index: 4000;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  background-color: transparent;
+}
 
-.nike_text{
-  
-    font-size:10rem;
-    text-transform: uppercase;
-    text-align: center;
-    background-color:transparent;
-   }
-.header_discount{
-    background-color:transparent; 
-       text-transform: uppercase;
-       text-align: center;
-       color:wheat;
-       font-size: 2em;
-         }
+.nike_text {
+  font-size: 10em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
+}
+.header_discount {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  color: wheat;
+  font-size: 2em;
+}
 
-.text_discount{
-    text-align: center;
-    font-size: 1.5em;
-    background-color:transparent;
-   }
+.text_discount {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: transparent;
+}
 
-
-.vertical_line{
- 
+.vertical_line {
   margin: auto;
   margin-bottom: 1rem;
   width: 100rem;
   height: 2px;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), #B59354, rgba(255,0,0,0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    #b59354,
+    rgba(255, 0, 0, 0)
+  );
 }
 
-.horizontal_line{
-  margin-top:-50rem;
-  float:right;
+.horizontal_line {
+  margin-top: -50rem;
+  float: right;
   width: 2px;
   height: 40rem;
-  background-image: linear-gradient(to right, rgba(255,0,0,0),  #B59354, rgba(255,0,0,0));
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    #b59354,
+    rgba(255, 0, 0, 0)
+  );
 }
 
+@media screen and (max-width: 972px) {
+  .Discount_Img {
+    visibility: hidden;
+  }
+  .text_container {
+    padding: 0 1rem;
 
-@media screen and (max-width:972px){
-    .Discount_Img{
-        visibility: hidden;
-       
-    }
+    left: -1rem;
+    width: 100%;
+  }
+  .nike_text {
+    font-size: 6em;
+  }
+  .header_discount {
+    font-size: 1em;
+  }
+
+  .text_discount {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .vertical_line {
+    visibility: hidden;
+  }
+
+  .horizontal_line {
+    visibility: hidden;
+  }
 }

@@ -1,23 +1,10 @@
-
-
 * {
   box-sizing: border-box;
- margin:1rem;
+  margin: 1rem;
   overflow: hidden;
-  
-  
+
   /*background-color: #0e161d;*/
   background-color: #292828;
- 
-  color: #B59354;
-  
+
+  color: #b59354;
 }
-
-
-
-
-
-
-
-
-
