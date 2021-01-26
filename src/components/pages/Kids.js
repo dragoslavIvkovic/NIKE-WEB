@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
-export default function Marketing() {
-  return (
-    <>
-      <h1 style={{ backgroundColor: "red" }} className='Kids'>KIDSu</h1>
-    </>
-  );
+function Kids() {
+  return <div></div>;
 }
+
+export default Kids;

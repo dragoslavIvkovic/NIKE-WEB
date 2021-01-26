@@ -2,11 +2,11 @@
   background-color: orangered;
   width: auto;
   height: auto;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;
-  border: 2px solid #b59354;
+  border: 3px solid #b59354;
 }
 
 .Cart_btn:hover {

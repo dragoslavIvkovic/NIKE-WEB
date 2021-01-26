@@ -1,0 +1,27 @@
+.men__items {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: DodgerBlue;
+  align-items: center;
+  justify-content: center;
+}
+
+.men__item {
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 20rem;
+  margin: 10px;
+  height: auto;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.img__props {
+  height: 10rem;
+  width: 7rem;
+}
+
+.btn_MenProps {
+  width: 1rem;
+  height: 1rem;
+}
