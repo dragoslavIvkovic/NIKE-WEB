@@ -1,5 +1,5 @@
 .home_container {
-  margin: 4rem 6rem;
+  margin: 6rem 6rem;
 }
 
 .Discount_Img {
@@ -25,6 +25,7 @@
 }
 
 .nike_text {
+  text-shadow: 1px 1px black;
   font-size: 7em;
   text-transform: uppercase;
   text-align: center;

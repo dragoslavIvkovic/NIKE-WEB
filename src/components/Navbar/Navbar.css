@@ -96,7 +96,7 @@
     grid-gap: 5px;
   }
 }
-@media screen and (max-width: 1054px) {
+@media screen and (max-width: 1030px) {
   .NavbarItems {
     position: relative;
   }
