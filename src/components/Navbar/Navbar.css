@@ -46,7 +46,7 @@
   color: #b59354;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
   transition: all 0.2s ease-out;
 }
@@ -65,13 +65,15 @@
 }
 
 .nav-links__SingIn {
-  color: wheat;
-  background-color: orangered;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  font-size: 1.8rem;
-  border-radius: 20px;
+  background-color: orangered;
+  width: auto;
+  height: auto;
+  font-size: 1.8em;
   font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: 2px solid #b59354;
 }
 
 .nav-links__SingIn:hover {

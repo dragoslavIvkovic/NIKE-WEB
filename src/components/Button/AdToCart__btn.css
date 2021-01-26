@@ -1,0 +1,15 @@
+.Cart_btn {
+  background-color: orangered;
+  width: auto;
+  height: auto;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: 2px solid #b59354;
+}
+
+.Cart_btn:hover {
+  background-color: wheat;
+  border-radius: 4px;
+}
