@@ -1,5 +1,6 @@
 .home_container {
   margin: 6rem 6rem;
+  overflow: hidden;
 }
 
 .Discount_Img {
@@ -7,9 +8,10 @@
   margin-top: 3rem;
   height: 60%;
   width: 60%;
-  float: right;
+  right: 3rem;
   position: relative;
   z-index: 1;
+  position: fixed;
 }
 
 .text_container {
@@ -64,7 +66,7 @@
 }
 
 .horizontal_line {
-  margin-top: -50rem;
+  margin-top: -45rem;
   float: right;
   width: 2px;
   height: 40rem;
@@ -74,6 +76,10 @@
     #b59354,
     rgba(255, 0, 0, 0)
   );
+}
+
+.lines_v_h {
+  position: fixed;
 }
 
 @media screen and (max-width: 972px) {
