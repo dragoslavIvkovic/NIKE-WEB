@@ -14,7 +14,11 @@ export default function Men() {
           />
         </div>
         <div className="men__item">
-          <MenProps name="fafdas" imageSource="./MenImg/Meni" bio="safdfas" />
+          <MenProps
+            name="fafdas"
+            imageSource="./MenImg/MenImg_1.png"
+            bio="safdfas"
+          />
         </div>
         <div className="men__item">
           <MenProps
