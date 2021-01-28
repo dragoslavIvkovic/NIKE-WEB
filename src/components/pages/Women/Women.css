@@ -57,6 +57,7 @@
   width: 11rem;
   background-color: transparent;
   transform: rotate(-25deg);
+  margin: 1rem;
 }
 
 .btn_WomenProps {
@@ -73,27 +74,12 @@ h1,
 p,
 a {
   background-color: transparent;
-  margin: 3px 5px;
+  margin: 6px 3px;
 }
 
 p {
-  padding: 10px 0;
+  padding: 0;
   color: orangered;
   font-size: 2em;
   font-weight: bold;
-}
-
-.c1 {
-  filter: hue-rotate(30deg);
-}
-.c2 {
-  filter: hue-rotate(150deg);
-}
-.c3 {
-  filter: hue-rotate(240deg);
-}
-
-.input_radial {
-  background-color: transparent;
-  margin: 0;
 }
