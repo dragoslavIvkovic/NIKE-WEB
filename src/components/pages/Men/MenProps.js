@@ -8,12 +8,13 @@ function MenProps(props) {
     <div className="props_img">
       <img
         src={props.imageSource}
-        alt={props.name}
         className="img__props"
+        alt={props.name}
         width="150px"
       />
       <h2>{props.name}</h2>
       <p>{props.bio}</p>
+      <h1>{props.price}</h1>
       <Button className="btn_MenProps" />
     </div>
   );

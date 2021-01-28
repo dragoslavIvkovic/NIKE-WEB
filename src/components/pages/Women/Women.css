@@ -1,4 +1,4 @@
-.men__items {
+.Women__items {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -42,12 +42,12 @@
   }
 }
 
-.men__item {
+.Women__item {
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 22rem;
   height: 22rem;
-  margin: 1rem 2rem;
+  margin: 2rem 2rem;
   text-align: center;
   line-height: auto;
 }
@@ -59,7 +59,7 @@
   transform: rotate(-25deg);
 }
 
-.btn_MenProps {
+.btn_WomenProps {
   width: 1rem;
   height: 1rem;
 }
@@ -77,7 +77,23 @@ a {
 }
 
 p {
+  padding: 10px 0;
   color: orangered;
   font-size: 2em;
   font-weight: bold;
+}
+
+.c1 {
+  filter: hue-rotate(30deg);
+}
+.c2 {
+  filter: hue-rotate(150deg);
+}
+.c3 {
+  filter: hue-rotate(240deg);
+}
+
+.input_radial {
+  background-color: transparent;
+  margin: 0;
 }

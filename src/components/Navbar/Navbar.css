@@ -34,12 +34,14 @@
   justify-content: end;
   margin-right: 2rem;
 }
+
+.nav-links__SingIn,
 .nav-links__cart,
 .nav-item {
   display: flex;
   align-items: center;
   height: 80px;
-  margin: 0.3rem;
+  margin: 0 2rem;
 }
 
 .nav-links {

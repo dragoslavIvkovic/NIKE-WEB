@@ -8,58 +8,66 @@ export default function Men() {
       <div className="men__items">
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (1).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (2).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (3).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (4).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (5).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (6).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (7).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
         <div className="men__item">
           <MenProps
-            name="fafdas"
-            imageSource="./MenImg/MenImg_1.png"
-            bio="safdfas"
+            name="name"
+            imageSource="./MenImg/MenImg (8).png"
+            bio="Air Max 270"
+            price="300 $"
           />
         </div>
       </div>

@@ -21,7 +21,6 @@ export default function Home() {
 
         <div className="lines_v_h">
           <div className="vertical_line"></div>
-          <div className="horizontal_line"></div>
         </div>
       </div>
     </>

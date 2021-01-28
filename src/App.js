@@ -5,7 +5,7 @@ import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Men from "./components/pages/Men/Men";
-import Women from "./components/pages/Women";
+import Women from "./components/pages/Women/Women";
 import SingIn from "./components/pages/SingIn";
 
 import Cart from "./components/pages/Cart";
