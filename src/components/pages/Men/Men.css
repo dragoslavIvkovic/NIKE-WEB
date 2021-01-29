@@ -46,8 +46,8 @@
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 22rem;
-  height: 20rem;
-  margin: 1rem 2rem;
+  height: 22rem;
+  margin: 0 2rem 2rem 1rem;
   text-align: center;
   line-height: auto;
 }
@@ -57,6 +57,7 @@
   width: 11rem;
   background-color: transparent;
   transform: rotate(-25deg);
+  margin: 1rem;
 }
 
 .btn_MenProps {
@@ -73,10 +74,11 @@ h1,
 p,
 a {
   background-color: transparent;
-  margin: 2px 3px;
+  margin: 6px 3px;
 }
 
 p {
+  padding: 0;
   color: orangered;
   font-size: 2em;
   font-weight: bold;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Men.css";
-
+import RadialCh from "../../Button/RadialCh";
 import Button from "../../Button/AdToCart__btn";
 
 function MenProps(props) {
@@ -12,9 +12,9 @@ function MenProps(props) {
         alt={props.name}
         width="150px"
       />
-      <h2>{props.name}</h2>
       <p>{props.bio}</p>
       <h1>{props.price}</h1>
+      <RadialCh />
       <Button className="btn_MenProps" />
     </div>
   );
